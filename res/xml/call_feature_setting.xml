@@ -99,6 +99,11 @@
         android:persistent="false"
         android:summary="@string/proximity_on_summary" />
 
+    <SwitchPreference
+        android:key="call_screen_wakeup"
+        android:title="@string/screen_wakeup"
+        android:persistent="false" />
+
     <PreferenceCategory
             android:key="category_prox_auto_speaker"
             android:title="@string/display_category_prox_auto_speaker_title" >
